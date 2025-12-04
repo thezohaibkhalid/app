@@ -1,0 +1,38 @@
+export const projects = [
+    {
+        id: 1,
+        slug: "haris-embroidery",
+        title: "HarisEmbroidery",
+        description: "A premium e-commerce platform for high-quality embroidery. Features a custom design system, seamless checkout, and a rich product showcase.",
+        fullDescription: "HarisEmbroidery is a bespoke e-commerce solution designed to highlight the intricate details of high-quality embroidery work. The platform was built with a focus on visual storytelling, allowing customers to zoom in on fabric textures and thread work. \n\nKey features include a custom-built product configurator, real-time inventory management, and a seamless checkout process integrated with Stripe. The design philosophy revolves around 'elegance and tradition', utilizing a gold and black color palette to evoke a sense of luxury.",
+        image: "/images/haris.png",
+        gallery: ["/images/haris.png", "/images/haris.png"], // Using same image for demo, user can replace
+        tags: ["Next.js", "Shopify", "Tailwind"],
+        link: "#",
+        repo: "#",
+    },
+    {
+        id: 2,
+        slug: "harold-international-school",
+        title: "Harold International School",
+        description: "A prestigious digital presence for a London-based international school. Includes student portals, event management, and a virtual campus tour.",
+        fullDescription: "This project involved creating a comprehensive digital ecosystem for Harold International School. The goal was to modernize their online presence while maintaining the institution's prestigious heritage. \n\nThe site features a secure parent-student portal, an interactive events calendar, and a virtual 360-degree campus tour. We prioritized accessibility and performance, ensuring the site serves a diverse international audience effectively.",
+        image: "/images/harold.png",
+        gallery: ["/images/harold.png", "/images/harold.png"],
+        tags: ["React", "CMS", "Education"],
+        link: "#",
+        repo: "#",
+    },
+    {
+        id: 3,
+        slug: "mbh-studioo",
+        title: "Mbh Studioo",
+        description: "A vibrant portfolio for a creative agency. Showcases design work with immersive animations and a bold, artistic layout.",
+        fullDescription: "Mbh Studioo needed a portfolio that was as creative and dynamic as their work. We built a high-performance site using Vue.js and GSAP for complex animations. \n\nThe layout breaks away from the traditional grid, offering a fluid, exploratory user experience. Each project case study is an immersive journey, combining video, text, and interactive elements to tell the story of the design process.",
+        image: "/images/mbh.png",
+        gallery: ["/images/mbh.png", "/images/mbh.png"],
+        tags: ["Vue.js", "GSAP", "Design"],
+        link: "#",
+        repo: "#",
+    },
+];
